@@ -1,0 +1,68 @@
+<!-- ------------CHECKBOX IN HTML---------
+
+A checkbox in HTML is like a small box you can check or uncheck. It’s usually used in forms when you need to pick one or more options. Imagine you're filling out a form on paper, and next to some choices, there’s a little box that you can mark with an "X" if you agree with something or choose it. In HTML, a checkbox works the same way!
+
+Here’s an example of a checkbox in HTML:
+
+    <form>
+    <label for="agree">
+        <input type="checkbox" id="agree" name="agree">
+        I agree to the terms and conditions
+    </label>
+    </form>
+
+How it works:
+The <input type="checkbox"> creates the actual checkbox.
+You can click it to check (mark) or uncheck (remove the mark) it.
+The <label> connects the text "I agree to the terms and conditions" with the checkbox, so if you click the text, it will also check the box (this makes it easier to use).
+
+What You See:
+You’ll see a small square box, and when you click on it, a checkmark appears. You can click again to remove the checkmark.
+
+Example with Multiple Checkboxes:
+You can have several checkboxes, and you can pick as many options as you like. For example, if you're choosing your favorite fruits:
+
+
+        <form>
+        <label>
+            <input type="checkbox" name="fruit" value="apple"> Apple
+        </label>
+        <label>
+            <input type="checkbox" name="fruit" value="banana"> Banana
+        </label>
+        <label>
+            <input type="checkbox" name="fruit" value="orange"> Orange
+        </label>
+        </form>
+
+How it works:
+Each checkbox lets you choose a fruit.
+You can select one, two, or all of them by checking the boxes.
+It’s great when you have more than one option to choose from!
+
+Summary:
+A checkbox is like a box you can check or uncheck to make a choice in a form, just like marking a box on paper. You can pick one, many, or none, depending on what you need. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form for="apple">
+        <label>
+            <input type="checkbox" name="fruit" value="apple" id = "101"> Apple
+        </label>
+        <label for="banana">
+            <input type="checkbox" name="fruit" value="banana"
+            id ="102"> Banana
+        </label>
+        <label for="orange">
+            <input type="checkbox" name="fruit" value="orange"
+            id="103"> Orange
+        </label>
+        </form>
+</body>
+</html>

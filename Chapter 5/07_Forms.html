@@ -1,0 +1,52 @@
+             <!-- -------FORM IN HTML------------
+
+Forms are used to collect data from the user
+Eg- sign up/login/help requests/contact me
+<form>
+    form content
+</form> -->
+
+
+      <!-- --------ACTION IN FORM--------
+
+In an HTML form, the action is like giving directions to the form. It tells the browser where to send the information that you type into the form.
+
+Imagine you're filling out a paper form at school, and once you're done, you hand it to your teacher. In HTML, the action is the teacher (or whoever gets your form). It’s a URL (like a web address) that points to where the form data will be sent when you press the "submit" button.       -->
+
+    <!-- -------INPUT IN HTML------------
+
+    The <input> element in an HTML form is like a blank space where you can enter different kinds of information. It's the part of the form where people can type things in, like their name, a password, or even pick a date. Think of it like a box you fill in on a paper form, but on a website.
+
+Here’s what different types of <input> elements do:
+
+1.Text box: A place to type regular words, like your name or email.
+<input type="text" name="username" placeholder="Enter your name">
+
+2.Password box: A place to type a password, where the characters turn into dots or stars for privacy.
+<input type="password" name="password" placeholder="Enter your password">
+
+3.Submit button: A button that you click to send all the information you typed in the form.
+<input type="submit" value="Submit">
+
+4.Checkbox: A small box you can click to select something (like "yes" or "I agree").
+<input type="checkbox" name="agree"> I agree
+
+There are many other types of <input> fields, but these are the basics. They help collect the information and then send it when you’re done. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action.php">
+       <input type="text" placeholder="Username">
+       <input type="password" placeholder="Password">
+
+
+    </form>
+    
+</body>
+</html>
